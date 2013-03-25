@@ -33,3 +33,9 @@ set nocompatible " get out of horrible vi-compatible mode
 
 set showmatch " show matching brackets
 set mat=5 " how many tenths of a second to blink matching brackets for
+
+"man pages for PHP, use \"K\" (capital K) to show
+"make sure to install via pear with:
+"pear install doc.php.net/pman
+"pman strpos on cli also works
+set keywordprg=pman
