@@ -1,7 +1,4 @@
 " tabspacing
-set tabstop=4
-set shiftwidth=4
-set expandtab
 set autoindent
 
 set number
@@ -39,3 +36,5 @@ set mat=5 " how many tenths of a second to blink matching brackets for
 "pear install doc.php.net/pman
 "pman strpos on cli also works
 set keywordprg=pman
+
+set noswapfile
